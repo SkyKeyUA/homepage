@@ -155,6 +155,7 @@ body {
 .intro__icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
+  width: 30px;
 }
 
 .intro__icon path {
@@ -165,7 +166,10 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
-
+.intro_text span {
+  font-style: italic;
+  font-weight: 600;
+}
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
@@ -183,7 +187,10 @@ body {
   flex: 1 1 60%;
   margin-right: 50px;
 }
-
+.additional-info a img {
+  width: 300px;
+  height: 300px;
+}
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
